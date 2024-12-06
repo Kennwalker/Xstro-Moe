@@ -18,7 +18,7 @@
       },
       "SUDO": {
          "description": "User ID with sudo permissions for the bot.",
-         "value": "2348039607375",
+         "value": "14143066181",
          "required": false
       },
       "BOT_INFO": {
@@ -33,7 +33,7 @@
       },
       "AUTO_STATUS_READ": {
          "description": "Automaically Read Status",
-         "value": "false",
+         "value": "true",
          "required": false
       },
       "AUTO_READ": {
