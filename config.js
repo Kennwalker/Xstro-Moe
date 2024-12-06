@@ -8,14 +8,14 @@ const toBool = x => x === 'true';
 const DATABASE_URL = process.env.DATABASE_URL || './database.db';
 const config = {
 	BASE_API_URL: process.env.BASE_API_URL || 'https://xstro-api-ec3ad328e76f.herokuapp.com',
-	SESSION_ID: process.env.SESSION_ID || '',
+	SESSION_ID: process.env.SESSION_ID || 'XSTRO_52_75_65',
 	BOT_INFO: process.env.BOT_INFO || 'ᴀsᴛʀᴏ;xsᴛʀᴏ-ᴍᴅ',
 	PREFIX: process.env.PREFIX || '.',
 	SUDO: process.env.SUDO || '',
 	STICKER_PACK: process.env.STICKER_PACK || 'ᴀsᴛʀᴏ;xsᴛʀᴏ-ᴍᴅ',
 	READ_CMD: toBool(process.env.READ_CMD) || true,
 	AUTO_READ: toBool(process.env.AUTO_READ) || false,
-	AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) || false,
+	AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) ||true,
 	MODE: process.env.MODE || 'private',
 	CMD_REACT: process.env.CMD_REACT || true,
 	HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
